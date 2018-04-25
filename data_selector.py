@@ -1,6 +1,7 @@
 import numpy as np
 import sys
 import visdom
+import pandas as pd
 class DataSelector():
     def __init__(self,image_list_path,pose_file_path,seq_len=40):
         self.seq_len = seq_len
@@ -11,6 +12,7 @@ class DataSelector():
         seq_len = self.seq_len
         pose_data = np.loadtxt(self.pose_file_path)
         data_length = pose_data.shape[0]
+        image_paths =pd.read_csv(self.image_list_path)
         posi_data = pose_data[:,3:12:4]
 
         # measure the angle of each sequence
@@ -48,24 +50,35 @@ class DataSelector():
         final_middle = np.array(final_end_pos) - np.array(final_length)/2
         print final_middle
         vis = visdom.Visdom()
-        win = vis.line(
-            X = np.array(pose_data[:,3]),
-            Y = np.array(pose_data[:,11]),
-            opts={
-            'title':'path',
-            'color':'red',
-            'xlabel':'x',
-            'ylabel':'z'
-            },
-            win=2
-            )
-        vis.scatter(
-            X = np.array(pose_data[final_middle,3:12:8]),
-            opts={
-            },
-            win=3,
-            )
+                data = [{
+            'x':pose_data[:,3].tolist(),
+            'y':pose_data[:,11].tolist(),
+            'mode':"lines",
+            'name':'path',
+            'type':'line',
+            },{
+            'x': pose_data[final_middle,3].tolist(),
+            'y': pose_data[final_middle,11].tolist(),
+            'type': 'scatter',
+            'mode': 'markers',
+            'name': 'turn point',
+            }]
+
+        win = 'mytestwin'
+        env = 'main'
+
+        layout= {
+            'title':"Test Plot",
+            'xaxis':{'title':'x1'},
+            'yaxis':{'title':'x2'}
+            }
+        opts = {}
+
+        vis._send({'data': data, 'win': win, 'eid': env, 'layout': layout, 'opts': opts})
         ## begin output
+        for i_mid in final_middle:
+            image_paths.ix[i_mid-seq_len/2:i_mid+seq_len/2-1,0].to_csv('result/image_00_sublist_'+str(i_mid)+'.txt')
+            np.savetxt('result/motion_sub_'+str(i_mid)+'.txt',pose_data[i_mid-seq_len/2:i_mid+seq_len/2,:])
 
 ## flow cluster
 
