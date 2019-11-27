@@ -1,0 +1,132 @@
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/11.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/12.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/13.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/14.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/15.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/16.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/17.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/18.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/19.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/20.txt not found.
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 14, in select_process
+    pose_data = np.loadtxt(self.pose_file_path)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/npyio.py", line 917, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 260, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/lib/_datasource.py", line 616, in open
+    raise IOError("%s not found." % path)
+OSError: /data/datasets/xiangwei/groundtruth/21.txt not found.

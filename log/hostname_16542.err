@@ -1,0 +1,385 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 921
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 921
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1061
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1061
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 3281
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 3281
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 631
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 631
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1901
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1901
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1731
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1731
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 491
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 491
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1801
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 1801
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 4981
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 4981
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 831
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 831
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3063, in get_loc
+    return self._engine.get_loc(key)
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 2721
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 57, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 23, in select_process
+    image_name_next = image_paths.ix[i_im+1,0]
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 116, in __getitem__
+    return self._getitem_tuple(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 870, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 998, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 1116, in _getitem_axis
+    return self._get_label(key, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexing.py", line 140, in _get_label
+    return self.obj._xs(label, axis=axis)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/generic.py", line 2984, in xs
+    loc = self.index.get_loc(key)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/indexes/base.py", line 3065, in get_loc
+    return self._engine.get_loc(self._maybe_cast_indexer(key))
+  File "pandas/_libs/index.pyx", line 140, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 162, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 958, in pandas._libs.hashtable.Int64HashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 964, in pandas._libs.hashtable.Int64HashTable.get_item
+KeyError: 2721

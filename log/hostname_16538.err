@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 58, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker.py", line 16, in select_process
+    data_length = pose_data.shape[0]
+NameError: name 'pose_data' is not defined

@@ -1,0 +1,66 @@
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 61, in <module>
+    data_selector.select_process()
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 36, in select_process
+    save_image_name = '/data/datasets/xiangwei/kitti_full_3/kitti_'+self.motion_output_name+'_'+str(count_for_name).zfill(6)+'.png'
+AttributeError: 'DataSelector' object has no attribute 'motion_output_name'

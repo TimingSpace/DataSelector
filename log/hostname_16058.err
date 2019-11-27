@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
+Traceback (most recent call last):
+  File "/home/wangxiangwei/Program/DataMaker/data_maker_3.py", line 59, in <module>
+    data_selector = DataSelector(image_list_path,pose_file_path,motion_output_name)
+NameError: name 'motion_output_name' is not defined
